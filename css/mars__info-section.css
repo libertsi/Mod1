@@ -1,0 +1,49 @@
+.mars__info-title {
+    font-family: var(--font-krona); 
+    font-weight: 400; 
+    font-size: 32px; 
+    line-height: 40px;
+    text-align: center; 
+    letter-spacing: 0.4em; 
+    margin-top: 30px;
+    color: var(--color-orange); 
+    text-shadow: 0px 0px 50px rgba(255, 255, 255, 0.51); 
+}
+
+.mars__info-text {
+    height: auto; 
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px; 
+    margin-bottom: 30px;
+    font-family: var(--font-roboto); 
+    font-style: normal; 
+    font-weight: 400;
+    font-size: 20px; 
+    line-height: 29px; 
+    text-align: justify;
+    letter-spacing: 0.4em; 
+    color: var(--color-white); 
+}
+
+.image-container {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 24px; 
+    margin: 0 auto;
+}
+.responsive-image {
+    width: 200px; 
+    height: auto; 
+}
+.image-container img:hover {
+    transform: scale(1.05); 
+    box-shadow: 0px 0px 15px 5px rgba(255, 124, 71, 0.8); 
+}
+@media (max-width: 412px) {
+    .responsive-image {
+        width: 100%; 
+    }
+}

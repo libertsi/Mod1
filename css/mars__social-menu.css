@@ -1,0 +1,44 @@
+.mars__social-menu{
+    position: relative; 
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    padding: 0;
+}
+.social-title {
+    font-family: var(--font-krona); 
+    font-weight: 400; 
+    font-size: 20px; 
+    color: var(--color-orange); 
+    margin: 10px ; 
+}
+
+.mars__line-menu {
+    position: relative;
+    border: 1px solid #FFFFFF;
+    margin: 10px auto;
+    width: 30%; 
+    align-self: center;
+}
+
+.social-container {
+    display: flex; 
+    flex-direction: column; 
+    align-items: flex-start; 
+    gap: 10px; 
+}
+
+.social-item {
+    display: flex; 
+    align-items: center; 
+    
+}
+
+.social-text {
+    font-family: var(--font-roboto); 
+    font-weight: 400; 
+    font-size: 20px; 
+    color: var(--color-white); 
+    margin-left: 30px; 
+}

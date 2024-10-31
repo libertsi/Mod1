@@ -1,0 +1,88 @@
+.mars__left-column {
+    position: relative; 
+    width: 100%; 
+    height: auto; 
+    padding: 0; 
+    margin: 0; 
+}
+
+.mars__title {
+    position: relative; 
+    font-family: var(--font-krona);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    padding-top: 20px;
+    text-align: center;
+    letter-spacing: 0.6em;
+    color: var(--color-white); 
+    text-shadow: 0px 0px 50px rgba(255, 255, 255, 0.795);
+}
+
+.mars__name {
+    position: relative;
+    font-family: var(--font-krona);
+    font-weight: 400;
+    font-size: 88px; 
+    line-height: 111px;
+    letter-spacing: 0.4em;
+    text-shadow: 0px 0px 50px rgba(255, 255, 255, 0.795);
+    color: var(--color-white);
+    text-align: center;
+    align-items: center;
+}
+
+.mars__line {
+    position: relative;
+    border: 1px solid var(--color-white);
+    margin: 20px auto;
+    width: 40%; 
+    align-self: center;
+}
+
+.mars__image {
+    position: relative; 
+    width: 486px;
+    height: 477px;
+    margin: 30px auto; 
+    border-radius: 223px;
+}
+
+.mars__description {
+    position: relative; 
+    font-family: var(--font-roboto);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    
+    letter-spacing: 0.3em;
+    color: var(--color-white);
+    margin: 30px ;
+}
+.mars__word{
+    color: var(--color-orange);
+    text-shadow: 0px 0px 50px rgba(255, 255, 255, 0.51);
+}
+
+@media (max-width: 412px) {
+    .mars__title {
+        font-size: 20px;
+        margin-left: 20px; 
+    }
+
+    .mars__name {
+        font-size: 48px; 
+    }
+
+    .mars__description {
+        font-size: 16px;
+    }
+
+    .mars__image {
+        width: 100%; 
+        height: auto; 
+        border-radius: 20px; 
+        margin: 30px auto;
+    }
+}

@@ -1,0 +1,13 @@
+.mars__right-column {
+    position: relative;
+    width: 100%; 
+    height: auto;
+    padding: 0; 
+    margin: 0; 
+}
+
+@media (max-width: 412px) {
+    .mars__right-column {
+        padding: 15px;
+    }
+}
